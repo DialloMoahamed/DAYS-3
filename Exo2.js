@@ -69,3 +69,10 @@ console.log(y = b ** 2 - 4 * a * c)
 let x = prompt("Entrer une veleur de x pour que y soit = 0");
 let result = parseFloat(y = a * x ** 2 + b * x + c );
 console.log(result);
+
+
+// Réponse numero 9
+let heure = prompt("Entrer vos heure :")
+let tarif = prompt("Entrer votre tarif horaire :")
+let salaire = parseFloat(heure) * parseFloat(tarif) ;
+console.log(salaire);
