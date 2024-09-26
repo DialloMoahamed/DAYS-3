@@ -80,3 +80,10 @@ console.log(salaire);
 
 // Réponse numero 10
 alert("Si la longueur de votre nom est supérieure à 7, disons que votre nom est long, sinon, disons que votre nom est court.")
+
+
+// Réponse numero 11
+let firstName = 'Mohamed'
+let lastName = 'Diallo'
+console.log(firstName.length > lastName.length)
+alert("Your first name, Mohamed is longer than your family name, Diallo")
