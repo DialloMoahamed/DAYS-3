@@ -76,3 +76,7 @@ let heure = prompt("Entrer vos heure :")
 let tarif = prompt("Entrer votre tarif horaire :")
 let salaire = parseFloat(heure) * parseFloat(tarif) ;
 console.log(salaire);
+
+
+// Réponse numero 10
+alert("Si la longueur de votre nom est supérieure à 7, disons que votre nom est long, sinon, disons que votre nom est court.")
