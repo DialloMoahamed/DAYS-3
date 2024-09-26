@@ -87,3 +87,9 @@ let firstName = 'Mohamed'
 let lastName = 'Diallo'
 console.log(firstName.length > lastName.length)
 alert("Your first name, Mohamed is longer than your family name, Diallo")
+
+
+// Réponse numero 12
+let myAge = 250
+let yourAge = 25
+alert("I am 225 years older than you.");
