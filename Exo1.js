@@ -66,7 +66,7 @@ console.log(4 == '4');
 const eleven = 4 === '4';
 console.log(4 === '4'); 
 // ------------------ 
-console.log("Python".length >= "jargon".length);
+console.log("Python".length > "jargon".length);
 
 
 // Réponse numero 6
@@ -122,3 +122,5 @@ console.log(minutes);
 //--------------------------    
 const Second = now.getSeconds(); 
 console.log(Second);
+const milisecondes = now.getTime()
+console.log(milisecondes);
