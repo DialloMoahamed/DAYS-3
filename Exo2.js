@@ -93,3 +93,10 @@ alert("Your first name, Mohamed is longer than your family name, Diallo")
 let myAge = 250
 let yourAge = 25
 alert("I am 225 years older than you.");
+
+
+// Réponse numero 13
+let firstbirthyear = prompt("Enter birth year:")
+alert("You are 25. You are old enough to drive");
+let secondbirthyear = prompt("Enter birth year")
+alert("You are 15. You will be allowed to drive after 3 years.");
