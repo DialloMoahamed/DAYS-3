@@ -105,3 +105,10 @@ alert("You are 15. You will be allowed to drive after 3 years.");
 // Réponse numero 14
 let one = prompt("Enter number of years you live: 100");
 let two = prompt("You lived 3153600000 seconds.");
+
+
+// Réponse numero 15
+const now = new Date();
+const options = { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' };
+const formattedDate = now.toLocaleString('fr-FR', options);
+console.log(formattedDate); 
