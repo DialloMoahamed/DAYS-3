@@ -111,6 +111,28 @@ console.log(two);
 
 // Réponse numero 15
 const now = new Date();
-const options = { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' };
-const formattedDate = now.toLocaleString('fr-FR', options);
+
+const year = now.getFullYear();
+const month = (now.getMonth() + 1).toString().padStart(2, '0'); // Ajout de 1 car les mois commencent à 0
+const day = now.getDate().toString().padStart(2, '0');
+const hours = now.getHours().toString().padStart(2, '0');
+const minutes = now.getMinutes().toString().padStart(2, '0');
+
+const formattedDate = `${year}-${month}-${day} ${hours}:${minutes}`;
+
 console.log(formattedDate); 
+// ---------------------------
+const now1 = new Date();
+const day1 = now.getDate().toString().padStart(2, '0');
+const month1 = (now.getMonth() + 1).toString().padStart(2, '0'); // Ajout de 1 car les mois commencent à 0
+const year1 = now.getFullYear();
+const hours1 = now.getHours().toString().padStart(2, '0');
+const minutes1 = now.getMinutes().toString().padStart(2, '0');
+const formattedDate1 = `${day}-${month}-${year} ${hours}:${minutes}`;
+
+console.log(formattedDate1);
+// ------------------------------
+const now2 = new Date()
+const option = { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit'}
+const formattedDate2 = now.toLocaleString('fr-FR',option)
+console.log(formattedDate);
