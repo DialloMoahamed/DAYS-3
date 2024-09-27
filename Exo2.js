@@ -90,21 +90,23 @@ alert("Your first name, Mohamed is longer than your family name, Diallo")
 
 
 // Réponse numero 12
-let myAge = 250
+let myAge = 35
 let yourAge = 25
-alert("I am 225 years older than you.");
+let somme = parseFloat(35 - 25)
+alert("I am 10 years older than you.");
 
 
 // Réponse numero 13
 let firstbirthyear = prompt("Enter birth year:")
-alert("You are 25. You are old enough to drive");
+alert("You are old enough to drive");
 let secondbirthyear = prompt("Enter birth year")
-alert("You are 15. You will be allowed to drive after 3 years.");
+alert("You will be allowed to drive in a few years");
 
 
 // Réponse numero 14
-let one = prompt("Enter number of years you live: 100");
-let two = prompt("You lived 3153600000 seconds.");
+let one = prompt("Enter number of years you live: ");
+let two = one * 3153600000;
+console.log(two);
 
 
 // Réponse numero 15
